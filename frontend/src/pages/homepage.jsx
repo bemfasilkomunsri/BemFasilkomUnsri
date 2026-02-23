@@ -5,7 +5,7 @@ import Hero from "../components/Home/Hero/";
 import Who_are_we from "../components/Home/Who_are_we";
 import Inside_BEM_Apps from "../components/Home/Inside";
 import PeopleSayAboutUs from "../components/home/People_say_about_us/Index.jsx";
-import PAMA from "../components/PAMA/index.jsx";
+
 
 const Homepage = () => {
   const [ref, inView] = useInView({ threshold: 0.05, once: true });
@@ -34,8 +34,6 @@ const Homepage = () => {
         <Inside_BEM_Apps />
 
         <PeopleSayAboutUs />
-
-        <PAMA />
       
     </main>
   );
